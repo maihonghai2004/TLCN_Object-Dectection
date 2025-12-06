@@ -1,0 +1,40 @@
+# =============================
+# CO BAN
+# =============================
+numpy>=1.23.5
+pandas>=2.1.1
+matplotlib>=3.8.0
+opencv-python-headless>=4.8.0.76
+Pillow>=10.0.0
+
+# =============================
+# DEEP LEARNING / YOLOv11
+# =============================
+# Torch + torchvision tuong thich CUDA 11.8 (neu co GPU NVIDIA)
+torch>=2.2.0
+torchvision>=0.17.0
+ultralytics>=8.3.0   # YOLOv11 ho tro tu ban 8.2.0 tro len
+
+# =============================
+# TRACKING
+# =============================
+scipy>=1.11.3
+filterpy>=1.4.5
+lapx>=0.5.5  # ban moi thay the lap cu, tuong thich Python 3.10+
+
+tqdm>=4.65.0 # Hien thi thanh loading khi xu ly video 
+pyyaml>=6.0 # Doc cau hinh model YOLO
+
+# =============================
+# OCR
+# =============================
+easyocr>=1.7.1
+pytesseract>=0.3.10
+
+paddlepaddle>=2.6.0
+paddleocr>=2.7.0
+
+# =============================
+# MACHINE LEARNING / TIEN ICH
+# =============================
+scikit-learn>=1.4.0
